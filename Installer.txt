@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /tmp/ && sudo wget https://download.jitsi.org/jitsi/debian/jitsi_2.10.5550-1_amd64.deb -O jitsi.deb && sudo wget https://download.jitsi.org/jitsi/debian/jitsi-archive-keyring_1.0.1_all.deb -O jitsi-key.deb sudo dpkg -i jitsi-key.deb
+sudo apt update
+sudo apt upgrade
+sudo apt install jitsi
